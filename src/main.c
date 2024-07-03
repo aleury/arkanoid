@@ -100,7 +100,6 @@ int main() {
             for (size_t i = 0; i < num_bricks; i++) {
                 if (bricks_alive[i]) {
                     DrawRectangleRec(bricks[i], brick_colors[i % 6]);
-                    // DrawRectangleLinesEx(bricks[i], 1.0, BG_COLOR);
                 }
             }
         }
